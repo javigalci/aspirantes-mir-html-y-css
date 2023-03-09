@@ -1,0 +1,26 @@
+fieldset {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    position: relative;
+    margin: 0 auto;
+    background:linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 7px 7px 3px 1px gray;
+  }
+
+  label, h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  input, select{
+    padding: 7px;
+    width: 100%;
+  }
+  
+  button{
+    padding: 5px 15px;
+    position: absolute;
+    right: 7%;
+  }

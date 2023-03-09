@@ -8,6 +8,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <table>
+    <fieldset>
+    <h1>Login</h1>
+        <form action="/formulario" method="POST">
+            <label for="Email">Email</label>
+            <br>
+            <input type="text" id="Email" name="Email"/>
+            <br>
+            <label for="Password">Password</label>
+            <br>
+            <input type="password" id="password" name="password"/>
+            <br>
+            <label for="Genero">Genero</label>
+            <br>
+            <select name="Genero" id="">    
+                <option>Hombre</option>         
+                <option>Mujer</option>
+            </select>
+            <br>
+            <label><input type="checkbox"/>Acepto los terminos y condiciones</label>
+            <br>
+            <button type="button">Ingresar</button>
+            <br>
+        </form>
+    </fieldset>
+    </table>
 </body>
 </html>
